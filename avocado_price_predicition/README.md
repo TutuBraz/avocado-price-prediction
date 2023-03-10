@@ -39,7 +39,7 @@ Columns in the dataset:
 
   
 # Organização do projeto:
-
+``` sh
 avocado_price_predicition
  ┣ data
  ┃ ┣ avocado.csv
@@ -48,3 +48,4 @@ avocado_price_predicition
  ┃ ┣ avocado_tratamento.ipynb
  ┃ ┗ eda_price_prediction.ipynb
  ┗ README.md
+ ```
