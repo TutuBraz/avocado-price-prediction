@@ -1,4 +1,4 @@
-#Objetivo.
+# Objetivo.
   Este projeto tem com objetivo principal fazer aplicação do meu primeiro algortimo de machine learning para predição de preço de abacates, com os conhecimentos adquiridos no curso que estou fazendo na coursera: https://www.coursera.org/specializations/machine-learning-introduction.
 
 As habilidades exercitadas:
@@ -8,6 +8,7 @@ As habilidades exercitadas:
 4. Normalização.
 5. Contruir modelo.
 6. Avaliar o modelo.
+
 
 # Fonte.
 
@@ -38,7 +39,8 @@ Columns in the dataset:
   region - the city or region of the observation
 
   
-# Organização do projeto:
+# Organização do projeto.
+
 ``` sh
 avocado_price_predicition
  ┣ data
@@ -49,3 +51,9 @@ avocado_price_predicition
  ┃ ┗ eda_price_prediction.ipynb
  ┗ README.md
  ```
+
+# Descrição dos arquivos.
+  
+* A pasta data contém dois datasets, o avocado.csv com os dados originais baixados do kaggle e outro avocados_trataos.csv que fiz o tratamento para a construção do modelo.
+  
+* A pasta notebooks contém dois arquivos, avocado_tratamento.ipynb este contém os códigos que utilizei para tratar os dados do dataset otiginal. A pasta eda_price_predicition.ipynb contém a análise exploratória e o modelo. 
